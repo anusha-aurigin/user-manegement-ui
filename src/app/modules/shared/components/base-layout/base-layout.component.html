@@ -1,0 +1,16 @@
+<div class="base-layout-wrap">
+
+  <div>
+    <ng-content select="[cp-background-image]"></ng-content>
+    <div fxLayout="column">
+      <div>Designed to Automate</div>
+      <div>3-dimensional platform of interactive documents</div>
+    </div>
+    <ng-content select="[cp-teaser-image]"></ng-content>
+  </div>
+
+  <div fxLayout="row" class="teaser-details-holder">
+    <ng-content select="[cp-form-holder]"></ng-content>
+  </div>
+
+</div>
